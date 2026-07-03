@@ -180,17 +180,17 @@ $emp_count = $conn->query("SELECT COUNT(*) as count FROM users WHERE role_id = 4
                 <div class="form-group">
                     <label>Leave Types Management</label>
                     <p style="color: #666; margin-bottom: 1rem;">View and manage all leave types available in the system</p>
-                    <button class="btn btn-secondary" disabled>Configure Leave Types</button>
+                    <a href="leave_types.php" class="btn btn-primary" style="display: inline-block;">Configure Leave Types</a>
                 </div>
                 <div class="form-group">
                     <label>Holiday Management</label>
                     <p style="color: #666; margin-bottom: 1rem;">Set official holidays and special non-working days</p>
-                    <button class="btn btn-secondary" disabled>Manage Holidays</button>
+                    <a href="holidays.php" class="btn btn-primary" style="display: inline-block;">Manage Holidays</a>
                 </div>
                 <div class="form-group">
                     <label>Department Setup</label>
                     <p style="color: #666; margin-bottom: 1rem;">Create and manage organizational departments</p>
-                    <button class="btn btn-secondary" disabled>Manage Departments</button>
+                    <a href="departments.php" class="btn btn-primary" style="display: inline-block;">Manage Departments</a>
                 </div>
                 <div class="form-group">
                     <label>System Logs</label>
